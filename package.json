@@ -1,0 +1,18 @@
+{
+  "name": "reliable-usage-charge-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Converts meter readings and a tariff into a customer charge, with explicit edge-case handling and safe failure behavior.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "expect-type": "^1.4.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
